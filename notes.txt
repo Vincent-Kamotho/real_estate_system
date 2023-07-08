@@ -1,0 +1,13 @@
+CHAT GPT REFERENCE FOR PROJECT
+https://chat.openai.com/c/d604e5a8-00ba-4651-8150-c5dd58bdc342
+
+Craete a migration inside a subfolder:
+   ->php artisan make:migration create_listings_table --path=/database/migrations/your_folder_name
+To migrate the migration in the subfolder:
+   ->php artisan migrate --path=/database/migrations/your_folder_name
+
+Create a controller inside a subfolder:
+   ->php artisan make:controller Listings/ListingController
+
+Create a model inside a subfolder:
+   ->php artisan make:model Desired_Folder_Name/Model_Name
